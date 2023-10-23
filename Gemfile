@@ -4,3 +4,5 @@ gem 'rspec'
 gem 'pry'
 gem 'sinatra'
 gem 'puma'
+gem "rerun", "~> 0.14.0"
+gem 'csv'
