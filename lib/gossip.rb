@@ -6,10 +6,6 @@ class gossip
   @content = content
   end
  
-def  save
-  CSV.open("./db/gossip.csv", "ab") do |csv|
-    csv << ["Mon super auteur", "Ma super description"]
-  end
   
   def self.all
     all_gossips = []
